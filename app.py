@@ -93,7 +93,10 @@ st.caption("Model: Logistic Regression | Preprocessing: Imputation → One-Hot E
 # ------------------------------------------------------------------
 # Copyright
 # ------------------------------------------------------------------
-st.caption("© 2026 Md Ainain Ahmed. All rights reserved.")
+st.markdown(
+    "<p style='text-align: center; color: gray; font-size: 0.85em;'>© 2026 Md Ainain Ahmed. All rights reserved.</p>",
+    unsafe_allow_html=True
+)
  
 # © 2026 ainainDev. All rights reserved.
 # This project is licensed under the MIT License — see LICENSE file for details.
