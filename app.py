@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 # ------------------------------------------------------------------
 # Load the trained pipeline (must be saved beforehand as full_pipeline.pkl
@@ -8,8 +8,7 @@ import pickle
 # ------------------------------------------------------------------
 @st.cache_resource
 def load_model():
-    with open('full_pipeline.pkl', 'rb') as f:
-        return pickle.load(f)
+    return joblib.load('full_pipeline.pkl')
 
 pipeline = load_model()
 
