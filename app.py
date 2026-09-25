@@ -89,3 +89,11 @@ if st.button("Predict Survival", type="primary", use_container_width=True):
 
 st.divider()
 st.caption("Model: Logistic Regression | Preprocessing: Imputation → One-Hot Encoding → Scaling → Yeo-Johnson Power Transform")
+
+# ------------------------------------------------------------------
+# Copyright
+# ------------------------------------------------------------------
+st.caption("© 2026 Md Ainain Ahmed. All rights reserved.")
+ 
+# © 2026 ainainDev. All rights reserved.
+# This project is licensed under the MIT License — see LICENSE file for details.
