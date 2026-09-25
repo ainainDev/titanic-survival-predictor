@@ -13,7 +13,7 @@ A complete, leakage-safe machine learning pipeline that predicts whether a Titan
 
 This project walks through an end-to-end ML workflow on the classic Titanic dataset — from raw data to a deployable prediction app — with a strong focus on **avoiding data leakage** and building a **production-ready pipeline** rather than a one-off notebook script.
 
-**Live demo:** *[add your Streamlit Cloud link here once deployed]*
+**Live demo:** *https://aindev-titanic-survival-predictor.streamlit.app/*
 
 ---
 
